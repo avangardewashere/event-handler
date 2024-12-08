@@ -5,7 +5,7 @@ import style from './index.module.scss';
 const EventCard = memo(() => {
   return (
     <div className={clsx(style.container)}>
-      <div className={clsx(style.dataHolder)}>
+      <div className={clsx(style.dateHolder)}>
         <b>17</b>
         <span>Mar</span>
       </div>
